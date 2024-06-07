@@ -17,12 +17,12 @@ export default function Page() {
     <div className="w-full flex justify-center">
       <Carousel
         className="w-full max-w-sm"
-        // autoplay={1000}
-        plugins={[Autoplay({ delay: 1000 })]}
+        autoplay={1000}
+        // plugins={[Autoplay({ delay: 1000 })]}
         opts={{
           // dragFree: true
-          loop: true
-          // align: "start"
+          // loop: true
+          align: "start"
         }}
       >
         <CarouselContent>
